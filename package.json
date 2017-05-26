@@ -2,6 +2,9 @@
   "name": "deployment-type",
   "version": "1.0.1",
   "description": "Determine the potential deployment type of a project on Δ now",
+  "scripts": {
+    "test": "xo"
+  },
   "main": "index.js",
   "repository": "zeit/deployment-type",
   "keywords": [
@@ -11,9 +14,16 @@
     "cloud"
   ],
   "license": "MIT",
+  "xo": {
+    "space": true,
+    "semicolon": false
+  },
   "dependencies": {
     "fs-extra": "3.0.1",
     "path-exists": "3.0.0",
     "path-type": "2.0.0"
+  },
+  "devDependencies": {
+    "xo": "0.18.2"
   }
 }

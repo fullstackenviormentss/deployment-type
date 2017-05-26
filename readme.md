@@ -1,6 +1,7 @@
 # deployment-type
 
 [![Build Status](https://travis-ci.org/zeit/deployment-type.svg?branch=master)](https://travis-ci.org/zeit/deployment-type)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![Slack Channel](http://zeit-slackin.now.sh/badge.svg)](https://zeit.chat/)
 
 This [Node.js](https://nodejs.org/en/) package inspects a certain file or directory path of your choice and then responds with the deployment type that will be selected for it when deployed with [now](https://zeit.co/now).

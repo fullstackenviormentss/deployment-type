@@ -71,7 +71,7 @@ const checkType = async (directory, paths) => {
 }
 
 module.exports = async directory => {
-  let paths = {}
+  const paths = {}
 
   for (const file in fileNames) {
     if (!{}.hasOwnProperty.call(fileNames, file)) {

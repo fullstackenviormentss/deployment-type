@@ -10,5 +10,10 @@
     "deploy",
     "cloud"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "path-exists": "^3.0.0",
+    "path-type": "^2.0.0"
+  }
 }

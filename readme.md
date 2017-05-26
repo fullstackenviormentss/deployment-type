@@ -6,6 +6,8 @@
 
 This [Node.js](https://nodejs.org/en/) package inspects a certain file or directory path of your choice and then responds with the deployment type that will be selected for it when deployed with [now](https://zeit.co/now).
 
+All of ZEIT's [now](https://zeit.co/now) clients (like [Now Desktop](https://github.com/zeit/now-desktop) and [Now CLI](https://github.com/zeit/now-cli)) are using this package.
+
 ## Usage
 
 Firstly, install the package:

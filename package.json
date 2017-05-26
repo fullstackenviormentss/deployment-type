@@ -1,6 +1,6 @@
 {
   "name": "deployment-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine the potential deployment type of a project on Δ now",
   "main": "index.js",
   "repository": "zeit/deployment-type",

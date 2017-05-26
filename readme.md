@@ -24,6 +24,14 @@ const deploymentType = require('deployment-type')
 await deploymentType(<path-here>)
 ```
 
+### Types
+
+The package will return one of these deployment types:
+
+- "npm" (node deployment)
+- "static"
+- "docker"
+
 ## Contribute
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device

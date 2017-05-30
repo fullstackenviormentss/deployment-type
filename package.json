@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Determine the potential deployment type of a project on Δ now",
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava"
   },
   "main": "index.js",
   "repository": "zeit/deployment-type",
@@ -24,6 +24,7 @@
     "path-type": "2.0.0"
   },
   "devDependencies": {
+    "ava": "0.19.1",
     "xo": "0.18.2"
   }
 }

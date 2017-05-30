@@ -5,7 +5,7 @@
   "scripts": {
     "test": "xo && ava"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "zeit/deployment-type",
   "keywords": [
     "now",

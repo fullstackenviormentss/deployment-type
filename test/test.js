@@ -1,7 +1,7 @@
 const {join} = require('path')
 const test = require('ava')
 const {readdirSync: readdir} = require('fs-extra')
-const deploymentType = require('../')
+const deploymentType = require('../lib')
 
 const fixtures = join(__dirname, '_fixtures')
 

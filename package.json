@@ -1,6 +1,6 @@
 {
   "name": "deployment-type",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Determine the potential deployment type of a project on Now",
   "scripts": {
     "test": "xo && ava"

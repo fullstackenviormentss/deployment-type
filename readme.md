@@ -13,7 +13,7 @@ All of ZEIT's [now](https://zeit.co/now) clients (like [Now Desktop](https://git
 Firstly, install the package:
 
 ```bash
-npm install --save deployment-type
+yarn add deployment-type
 ```
 
 And then:
